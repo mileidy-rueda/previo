@@ -315,9 +315,6 @@ fa.parallel(r, fm="pc", n.obs=30, ylabel = "Eigenvalues")
     ## The estimated weights for the factor scores are probably incorrect. Try a
     ## different factor score estimation method.
 
-    ## Warning in fa.stats(r = r, f = f, phi = phi, n.obs = n.obs, np.obs = np.obs, :
-    ## An ultra-Heywood case was detected. Examine the results carefully
-
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
 
     ## Warning in fa.stats(r = r, f = f, phi = phi, n.obs = n.obs, np.obs = np.obs, :
@@ -342,6 +339,15 @@ fa.parallel(r, fm="pc", n.obs=30, ylabel = "Eigenvalues")
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
+
+    ## Warning in fa.stats(r = r, f = f, phi = phi, n.obs = n.obs, np.obs = np.obs, :
+    ## The estimated weights for the factor scores are probably incorrect. Try a
+    ## different factor score estimation method.
+
+    ## Warning in fa.stats(r = r, f = f, phi = phi, n.obs = n.obs, np.obs = np.obs, :
+    ## An ultra-Heywood case was detected. Examine the results carefully
+
+    ## factor method not specified correctly, minimum residual (unweighted least squares  used
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
@@ -353,7 +359,6 @@ fa.parallel(r, fm="pc", n.obs=30, ylabel = "Eigenvalues")
     ## Warning in fa.stats(r = r, f = f, phi = phi, n.obs = n.obs, np.obs = np.obs, :
     ## An ultra-Heywood case was detected. Examine the results carefully
 
-    ## factor method not specified correctly, minimum residual (unweighted least squares  used
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
     ## factor method not specified correctly, minimum residual (unweighted least squares  used
 
@@ -402,7 +407,7 @@ paran(r, iterations= 100,graph= F)
     ## Component   Adjusted    Unadjusted    Estimated 
     ##             Eigenvalue  Eigenvalue    Bias 
     ## -------------------------------------------------- 
-    ## 1           1.255812    3.027785      1.771972
+    ## 1           1.282077    3.027785      1.745708
     ## -------------------------------------------------- 
     ## 
     ## Adjusted eigenvalues > 1 indicate dimensions to retain.
